@@ -1,0 +1,13 @@
+@import "bootstrap";
+
+/* Custom app styles */
+@keyframes domChanged { from { background: yellow; } }
+@-webkit-keyframes domChanged { from { background: yellow; } }
+.ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; }
+
+.navbar-default {
+  .inner-wrapper {
+    max-width: $screen-lg;
+    margin: 0 auto;
+  }
+}
